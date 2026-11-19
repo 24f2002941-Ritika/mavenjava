@@ -1299,4 +1299,5 @@ Create a Pipeline job (or Pipeline from SCM) and paste this script into Pipeline
 
 
 curl -s ifconfig.me; echo
+  http://3.80.46.186:8080/ai-olms/
   */
