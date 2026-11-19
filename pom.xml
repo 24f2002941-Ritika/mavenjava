@@ -1195,7 +1195,7 @@ EOF
 ''''
 '''
 pipeline 
-
+'''
 
 node {
   try {
@@ -1221,7 +1221,15 @@ node {
     echo "Pipeline result: ${currentBuild.currentResult}"
   }
 }
-
+''email'''
+  node {
+    emailext(
+        subject: 'Jenkins Gmail Test',
+        body: 'This is a test email from Jenkins.',
+        to: 'ritikaannam16@gmail.com'
+    )
+}
+  '''
 nstall Email Extension Plugin. Manage Jenkins → System → Extended E-mail Notification: configure SMTP server, port, authentication credentials, sender and test configuration. In the job/pipeline, use emailext. Configure a real recipient address; team@example.com below is a placeholder.
 node {
   try {
