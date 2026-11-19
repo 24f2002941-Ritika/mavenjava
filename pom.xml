@@ -1304,7 +1304,12 @@ docker compose logs -f
 # Nginx: http://localhost
 Jenkins Scripted Pipeline: Jenkinsfile and setup
 Create a Pipeline job (or Pipeline from SCM) and paste this script into Pipeline → Definition: Pipeline script. Configure JDK/Maven in Manage Jenkins → Tools. Install Git, Pipeline, Email Extension and Docker Pipeline plugins as needed. Change the Docker Hub username/credential ID to your own values.
-
+2712 6043
+3233 8064
+0983 6135
+0110 1703
+3966 2309
+5377 9633
 
 curl -s ifconfig.me; echo
   http://3.80.46.186:8080/ai-olms/
